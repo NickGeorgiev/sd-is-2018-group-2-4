@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "xlocale": "cpp",
-        "xstring": "cpp",
-        "xutility": "cpp",
-        "streambuf": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "Disabled"
-}

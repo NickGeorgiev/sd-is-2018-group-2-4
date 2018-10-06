@@ -1,15 +1,12 @@
 #pragma once
-
 #include "Boat.h"
 
-class Battleship: public Boat {
-    int numberOfGuns;
-    public:
-    Battleship(std::string _name, int numGuns): Boat(_name), numberOfGuns(numGuns){}
-        char* getType() {
-        return "Bat";
-    }
-    void print() const {
-        std::cout<<"I am a battleship, called "<<this->getName()<<" and have "<< this->numberOfGuns << " guns\n";
-    }
+class Battleship : public Boat {
+	int numberOfGuns;
+public:
+	Battleship() = default;
+	Battleship(std::string, int);
+	std::string getType() const override;
+	void clone(Boat*&) const override;
+	void print() const override;
 };
