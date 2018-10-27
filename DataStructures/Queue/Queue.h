@@ -1,4 +1,10 @@
 #pragma once
+
+// FIFO structure;
+// Element is added at the end (tail);
+// Element is removed from the start (head);
+// Working with any element different from the head and tail is not allowed.
+
 template<class T>
 struct QueueNode {
 	T data;

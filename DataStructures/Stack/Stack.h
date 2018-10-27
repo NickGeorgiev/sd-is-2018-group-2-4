@@ -1,4 +1,9 @@
 #pragma once
+
+// FILO structure;
+// User operates only with the element on the top os the stack;
+// User cannot view, delete or change any other element, different from the one on the top.
+
 template<class T>
 struct StackNode {
 	T data;
