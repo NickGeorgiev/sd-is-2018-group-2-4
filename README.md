@@ -5,3 +5,6 @@ Repo for data structures course in Faculty of Mathematics and Informatics, Sofia
 Nikola Georgiev
 
 nikikg95@gmail.com
+
+Homework tasks [here](https://docs.google.com/document/d/1MNnEKERic4xylaV1fx91uihYWMBuxsArudL8sQfcZsg/edit?usp=sharing)
+
