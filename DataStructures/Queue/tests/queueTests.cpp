@@ -60,6 +60,6 @@ bool queueTests(bool debug = false) {
 }
 
 int main () {
-	std::cout << queueTests();
+	std::cout << "Result from tests is: " << std::boolalpha << queueTests();
 	return 0;
 }
