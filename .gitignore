@@ -6,3 +6,4 @@
 *.vcxproj.user
 *.sln
 */.vs
+./vscode
