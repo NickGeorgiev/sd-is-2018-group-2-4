@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cassert>
-#include "Stack.cpp"
+#include "../Stack.cpp"
 bool stackTests(bool debug = false) {
 	Stack<int> testStack;
 	assert(testStack.size() == 0);
@@ -41,6 +41,6 @@ bool stackTests(bool debug = false) {
 }
 
 //int main() {
-//	std::cout << stackTests();
+//	std::cout << "Result from tests is: " << std::boolalpha << stackTests();
 //	return 0;
 //}

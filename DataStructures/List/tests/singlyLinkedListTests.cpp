@@ -87,6 +87,6 @@ bool sliteratorTests(bool debug=false) {
 }
 
 //int main () {
-//	std::cout << sllistTests() && sliteratorTests();
+//	std::cout << "Result from tests is: " << std::boolalpha << sllistTests() && sliteratorTests();
 //	return 0;
 //}

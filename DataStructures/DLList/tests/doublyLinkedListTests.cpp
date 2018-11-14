@@ -97,6 +97,6 @@ bool dliteratorTests(bool debug = false) {
 }
 
 //int  main() {
-//	std::cout << dllistTests() && dliteratorTests();
+//	std::cout << "Result from tests is: " << std::boolalpha << dllistTests() && dliteratorTests();
 //	return 0;
 //}
