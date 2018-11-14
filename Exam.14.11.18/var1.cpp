@@ -14,31 +14,9 @@ template <class T>
 struct LinkedListNode
 {
     T data;
-    LinkedListNode<T> *previous;
     LinkedListNode<T> *next;
     LinkedListNode(const T &_data, LinkedListNode<T> *_next = nullptr) : data(_data), next(_next) {}
 };
-
-//helper functions
-template <class T>
-void printList(DLinkedListNode<T> *first)
-{
-    while (first)
-    {
-        std::cout << first->data << " ";
-        first = first->next;
-    }
-}
-
-template <class T>
-void printList(LinkedListNode<T> *first)
-{
-    while (first)
-    {
-        std::cout << first->data << " ";
-        first = first->next;
-    }
-}
 
 template <class T>
 LinkedListNode<T> *createList(unsigned int n)
@@ -117,6 +95,27 @@ void makeProgression(DLinkedListNode<T> *&first)
         {
             currentElement = currentElement->next;
         }
+    }
+}
+
+//helper functions
+template <class T>
+void printList(DLinkedListNode<T> *first)
+{
+    while (first)
+    {
+        std::cout << first->data << " ";
+        first = first->next;
+    }
+}
+
+template <class T>
+void printList(LinkedListNode<T> *first)
+{
+    while (first)
+    {
+        std::cout << first->data << " ";
+        first = first->next;
     }
 }
 
