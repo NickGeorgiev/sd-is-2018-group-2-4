@@ -30,8 +30,23 @@ public:
 	size_t size() const;
 	ListIterator<T> begin() const;
 	ListIterator<T> end() const;
+	// void print() const {
+	// 	ListNode<T>* current = first;
+	// 	while(current){
+	// 		std::cout<<current->data;
+	// 		current = current->next;
+	// 	}
+	// }
 };
 
+template<class T>
+void print(ListNode<T>*& start) {
+	ListNode<T>* current = start;
+	while(current){
+		std::cout<<current->data;
+		current = current->next;
+	}
+}
 template<class T>
 class ListIterator {
 	ListNode<T>* iteratedElement;
