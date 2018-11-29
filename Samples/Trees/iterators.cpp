@@ -152,5 +152,5 @@ int main() {
 	std::cout << '\n';
    for(auto it = tree.begin(); !it.end(); it++) {
        std::cout<< *it<< " ";
-   } 
+   }
 }
